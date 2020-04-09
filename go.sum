@@ -130,6 +130,8 @@ github.com/filecoin-project/chain-validation v0.0.3 h1:luT/8kJ0WdMIqQ9Bm31W4JkuY
 github.com/filecoin-project/chain-validation v0.0.3/go.mod h1:NCEGFjcWRjb8akWFSOXvU6n2efkWIqAeOKU6o5WBGQw=
 github.com/filecoin-project/chain-validation v0.0.6-0.20200331143132-15970e639ac2 h1:kRaCruOKzFy5mE5lwPecKD5aztzmazMQDot38NgT6E0=
 github.com/filecoin-project/chain-validation v0.0.6-0.20200331143132-15970e639ac2/go.mod h1:mXiAviXMZ2WVGmWNtjGr0JPMpNCNsPU774DawKZCzzM=
+github.com/filecoin-project/chain-validation v0.0.6-0.20200409170327-a94b502ea821 h1:Q5GzVySohoSWWa8AH4iw6sBcPlqQlv5cTvoxY1dazdA=
+github.com/filecoin-project/chain-validation v0.0.6-0.20200409170327-a94b502ea821/go.mod h1:mXiAviXMZ2WVGmWNtjGr0JPMpNCNsPU774DawKZCzzM=
 github.com/filecoin-project/go-address v0.0.0-20191219011437-af739c490b4f/go.mod h1:rCbpXPva2NKF9/J4X6sr7hbKBgQCxyFtRj7KOZqoIms=
 github.com/filecoin-project/go-address v0.0.0-20200107215422-da8eea2842b5/go.mod h1:SAOwJoakQ8EPjwNIsiakIQKsoKdkcbx8U3IapgCg9R0=
 github.com/filecoin-project/go-address v0.0.2-0.20200218010043-eb9bb40ed5be h1:TooKBwR/g8jG0hZ3lqe9S5sy2vTUcLOZLlz3M5wGn2E=
