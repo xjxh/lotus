@@ -159,7 +159,7 @@ func TestForkHeightTriggers(t *testing.T) {
 
 	inv.Register(actcid, &testActor{}, &testActorState{})
 	sm.SetVMConstructor(func(c cid.Cid, h abi.ChainEpoch, r vm.Rand, b blockstore.Blockstore, s runtime.Syscalls) (*vm.VM, error) {
-		nvm, err := vm.NewVM(c, h, r,  b, s)
+		nvm, err := vm.NewVM(c, h, r, b, s)
 		if err != nil {
 			return nil, err
 		}
