@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"os"
 
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/urfave/cli/v2"
@@ -99,6 +100,8 @@ func main() {
 	app.Setup()
 	app.Metadata["repoType"] = repo.StorageMiner
 
+	os.Args = append(os.Args, "run")
+	os.Args = append(os.Args, "--nosync")
 	lcli.RunApp(app)
 }
 
